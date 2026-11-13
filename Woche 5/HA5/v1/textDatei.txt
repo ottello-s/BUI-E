@@ -1,0 +1,25 @@
+-https://chatgpt.com/share/6af74e07-cf94-83ed-a564-b12c8a81a334
+
+1-ja, das Programm startet 
+keine Fehler aber am Spielende zeigt nicht wer gewonnen hat 
+
+
+2-mit 3 Spiler auch
+
+
+
+#in uno script gibts viele neue funk wie shuffle, pop 
+- *eigene Regeln +4 karte immer darf  *sonderkarten gibts sowieso nicht
+- Sonderkarten (Zieh 2, Retour, Aussetzen,
+Farbwahl, ...) sollte nicht geben
+3-uml Bild 
+-108 statt 40 karten, sollte 4 farbe 0 bis 9 jede karte nur einmal
+- statt Deck sollte CardStack heißen
+- 5 Karten statt 7 am Start 
+- der spieler spielt immer die erste passende karte auf seiner hand
+- hat spieler keine passende karte, dann zieht eine 
+#Die vorgeschriebene Regeln sind einfacher zu implementieren und sehr direkt, aber weniger interessant. Es läuft ohne Nutzereingabe automatisch ab, und gibt das Ergebnis mit print auf der Konsole aus. alle klassen haben __repr__-Methode für eine lesbare Ausgabe
+
+Ist der verdeckte Stapel leer, wird er aus den Karten des offenen Stapels (außer der obersten)
+neu gebildet
+
