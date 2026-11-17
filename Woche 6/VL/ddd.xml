@@ -1,0 +1,12 @@
+<? ?>
+
+<note>
+
+</note>
+
+#import xml.dom.minidom
+#doc = xml.dom.minidom.parse("bookstore.xml")
+#getAttribute
+#getElementsByTagName
+#childNodes
+#python -m venv venv 

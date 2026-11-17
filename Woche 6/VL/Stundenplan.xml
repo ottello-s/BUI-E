@@ -1,0 +1,17 @@
+<Stundenplan>
+    <Kurs>
+        <Name>BUI Ergänzungsmodul</Name>
+        <Lehrstuhl>TUM CMS</Lehrstuhl>
+        <ECTS>5</ECTS>
+    </Kurs>
+    <Kurs>
+        <Name>Metallbau Ergänzungskurs</Name>
+        <Lehrstuhl>TUM MB</Lehrstuhl>
+        <ECTS>3</ECTS>
+    </Kurs>
+    <Kurs>
+        <Name>Bauphysik Ergänzungskurs</Name>
+        <Lehrstuhl>TUM BP</Lehrstuhl>
+        <ECTS>5</ECTS>
+    </Kurs>
+</Stundenplan>

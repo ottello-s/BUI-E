@@ -1,0 +1,14 @@
+{
+    "Vorname": "Maximilian",
+    "Nachname": "Mustermann",
+    "Kommunikation": {
+        "Handynummer": "0998-54799235",
+        "Mail": "max.muster@tum.de"
+    },
+    "Anschrift": {
+        "Strasse": "Arcisstrasse",
+        "Hausnummer": 21,
+        "Postleitzahl": 80333,
+        "Stadt": "Muenchen"
+    }
+}

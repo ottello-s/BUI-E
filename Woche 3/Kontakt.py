@@ -1,13 +1,14 @@
-import datetime
+from datetime import date
 
 
 # das
 class Kontakt:
-    def __init__(self, nachname: str, vorname: str, room_id: int, date_of_birth):
+    def __init__(self, nachname: str, vorname: str, room_id: int, date_of_birth: date):
         # nn -übergabeparameter
         self.nachname = nachname 
         self.vorname = vorname
         self.room_id = room_id
+        self.date_of_birth = date_of_birth
         pass  
 
     @property
@@ -30,9 +31,9 @@ class Kontakt:
 # in class funk = methode
 # in class  Variable = att/prop
 
-bene = Kontakt(1, "Benedict", 31788, datetime.date(1901.01.01)
+bene = Kontakt(1, "Benedict", 31788, date(1901,4,4))
 
-datetime.date(1999,1,1)
+date(1999,1,1)
 
 sebastian = Kontakt("Essen", "Sebastian", 3165, "2")
 

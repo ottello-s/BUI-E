@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Personen>
+    <Person nation="Deutschland">
+        <Nachname>Mustermann</Nachname>
+        <Vorname>Erika</Vorname>
+        <Geburtsdatum date = "2020-02-01"/>
+           
+    </Person>
+    <Person nation="Schweiz">
+        <Nachname>Erikson</Nachname>
+        <Vorname>Hans</Vorname>
+        <Geburtsdatum date = "1999-10-30"/>
+    </Person>
+</Personen>

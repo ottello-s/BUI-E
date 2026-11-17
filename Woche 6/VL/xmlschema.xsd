@@ -1,0 +1,21 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:complexType name = "LV">
+        <xs:sequence>
+                <xs:element name = "Name" />
+                <xs:element name = "Lehrstuhl" />
+                <xs:element name = "ECTS" />
+
+        </xs:sequence>
+    </xs:complexType> 
+        
+        
+    <xs:element name = "Stundenplan">    
+        <xs:complexType 
+            <xs:sequence>
+                <xs:element name = "Kurs" type = "LV" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    
+</xs:schema>
